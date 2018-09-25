@@ -40,7 +40,7 @@ class SetupClusterAlias(objects.BaseAtom):
                     "error",
                     NS.publisher_id,
                     {
-                        "message": "Setting up cluster alias"
+                        "message": "Setting up cluster alias "
                         "not yet complete. Timing out. (%s)" %
                         integration_id
                     },
